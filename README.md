@@ -5,6 +5,8 @@ A showcase project for Golang with Postgres and Redis.
 ## Project Overview
 This is an example project to showcase the concept of a Giveaway integrated into your platform. When launching a promo (for example: "Free Stickers"), the backend needs to handle heavy, concurrent traffic spikes without overselling (race conditions) or allowing users to claim multiple items.
 
+![Sticker Drop Card](image.png)
+
 ## Tech Stack
 * **Backend:** Go (Golang)
 * **API:** GraphQL (Schema-First using `gqlgen`)
