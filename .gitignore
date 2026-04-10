@@ -1,0 +1,12 @@
+# Go
+/stickerdrop.exe
+/stickerdrop
+
+# Frontend (Node)
+frontend/node_modules/
+frontend/dist/
+.env
+
+# MacOS/Windows Systemfiles
+.DS_Store
+Thumbs.db

@@ -1,0 +1,15 @@
+# Giveaway-Drop
+type Drop {
+  id: ID!
+  title: String!
+  totalAvailable: Int!
+  claimed: Int!
+}
+
+type Query {
+  getDrop(id: ID!): Drop!
+}
+
+type Mutation {
+  claimSticker(dropId: ID!, email: String!): Boolean!
+}

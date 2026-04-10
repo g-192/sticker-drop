@@ -1,0 +1,111 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f4f5f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+h1 {
+  color: #ff5e00;
+  margin-top: 0;
+}
+
+h2 {
+  color: #333;
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.progress-container {
+  margin-bottom: 30px;
+}
+
+progress {
+  width: 100%;
+  height: 20px;
+  border-radius: 10px;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+progress::-webkit-progress-value {
+  background-color: #ff5e00;
+  border-radius: 10px;
+}
+
+.claim-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+input:focus {
+  border-color: #ff5e00;
+  outline: none;
+}
+
+button {
+  background-color: #ff5e00;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover:not(:disabled) {
+  background-color: #e05300;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.message {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #444;
+  min-height: 24px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+}
+
+.random-btn{
+  background-color: #0063df;
+  width: 100%;
+}
+
+.random-btn:hover:not(:disabled) {
+  background-color: #00408f;
+}
